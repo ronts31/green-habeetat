@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+body{
+    font-family: 'Grandstander', cursive;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Grandstander', cursive;
+}
+
+/* inicio */
+#header{
+    background-image: url('../img/abeja.png');
+    width: 100%;
+    height: 90vh;
+    background-size: 1300px;
+    background-position-y: -200px ;
+    background-position-x: 80px;
+    
+    padding: 20px 0px 0px;  
+    
+}
+
+#header .bg-nav-port{
+    background: #4abd54;
+}
+
+#header .bg-nav-port .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header .bg-nav-port .navbar-nav li{
+    margin: 0 10px;
+}
+
+#header .bg-nav-port .navbar-nav li a{
+    color: #fff;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+#header .bg-nav-port .navbar-nav li a h5{
+    color: rgb(92, 105, 221);
+}
+
+#header .bg-nav-port .navbar-nav li a:hover{
+    color: rgb(71, 210, 245);
+}
+#header .hero{
+    text-align: center;
+    padding-top: 230px;
+}
+#header .hero h1{
+    font-size: 70px;
+    font-weight: 200px;
+    color: #fff;
+}
+#header .hero p{
+    font-size: 20px;
+    font-weight: 10px;
+    color: #fff;
+}
+hr {border-top: 1px solid #000; width:30%;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;
+
+}
+#contenido {
+    background:#fff;
+    overflow: hidden;
+}
+#contenido .text{
+    position: absolute;
+    padding-right: 90px;
+    padding-top: 80px;
+    padding-left: 600px;
+}
+#contenido .img{
+    position: relative;
+    padding-left: 130px;
+    padding-top: 40px;
+}
+#contenido .text2{
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 70px;
+}
+#contenido .img2{
+    position: absolute;
+    padding-right: 90px;
+    padding-top: 90px;
+    padding-left: 600px;
+}
+#contenido .text3{
+    position: absolute;
+    padding-right: 90px;
+    padding-top: 460px;
+    padding-left: 600px;
+    
+}
+#contenido .img3{
+    position: relative;
+    padding-left: 130px;
+    padding-top: 430px;
+}
+#contenido .text4{
+    text-align: center;
+    padding-top: 400px;
+    font-size: 30px;
+}
+#contenido .img5{
+    padding-top: 50px;
+}
+#contenido .tex5{
+    font-size: 15px;
+    padding-top: 60px;
+    text-align: center;
+    padding-left: 50px;
+}
+#contenido .texto{
+    text-align: center;
+    padding-top: 40px;
+}
+.cont{
+    background: #4abd54;
+    color: #fff;
+    height: 130px;
+    margin-top: 50px;
+    text-align: center;
+}
+ /* nosotros */
+ #demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 20px;
+          }
+          
+          .page-top{
+              margin-top:10px;
+              margin-bottom: -10px;
+          }
+  
+     
+  img .zoom {
+      width: 400px;
+      height: 250px;
+      margin-left: 400px;
+      margin-right: 400px;
+      border-radius:10px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition { 
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+      .modal-header {
+        height: 100px;
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        margin-left: 0;
+        display:none;  
+      }
+   
+      
+      .box1{background: rgb(76, 175, 80, 0.6);
+        margin-bottom: 0;
+        margin-top: 100px;
+        height: 130px;
+        width: 10px;
+       }
+      .box2{background: rgba(138, 211, 224, 0.6);
+        margin-bottom: 0;
+        margin-top: 100px;
+        width: 10px;
+        height: 130px;
+        
+       }
+      .box3{background: rgba(233, 219, 23, 0.6);
+        margin-bottom: 0;
+        margin-top: 100px;
+        height: 130px;
+        width: 10px;
+        
+       }
+       
+      
+      
+      
+     
+ 
+
+   
